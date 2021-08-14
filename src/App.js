@@ -17,11 +17,12 @@ function App() {
         data.meals = [];
       }
       setMeal(data.meals)
-      // cosole.log(data.meal)
+     
     }
     getMeal()
 
   }, [getSearch])
+  console.log(meal)
 
   function updateSearch(e) {
     e.preventDefault();

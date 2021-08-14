@@ -147,12 +147,17 @@ const useStyles = makeStyles((theme) => ({
         </ol>}
       </CardContent>
         <CardContent>
-          <Typography align='center'
-           variant="h5" gutterBottom>How to cook:</Typography>
+          <Typography 
+          align='center'
+           variant="h5" 
+           gutterBottom>How to cook:</Typography>
           <Typography paragraph>
           {instructions}
           </Typography>
-          <Link className={classes.bold} href={link}>Visit site</Link>
+          <Link
+          target="_blank" 
+          className={classes.bold} 
+          href={link}>Visit site</Link>
         </CardContent>
       </Collapse>
     </Card>
